@@ -1,3 +1,4 @@
+# Grundlegende Konzepte der Programmierung im Allgemeinen
 # Auswertungsreihenfolge
 x = 2 + 2
 print(x)
@@ -7,6 +8,7 @@ print(x)
 
 x = 2 ** 2
 print(x)
+
 y = 0
 x = (1*y) * (1/y)
 print(x)
@@ -29,6 +31,6 @@ current_b4lance = 0
 _42 = 0
 cb = 0
 
-# Aussagen vs Ausdruck
-2 + 2
-y = 2 + 2
+# Aussagen vs Ausdruck (Statement vs. Expression)
+2 + 2   # Statement
+y = 2 + 2   # Expression
