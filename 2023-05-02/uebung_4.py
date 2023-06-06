@@ -1,12 +1,10 @@
-# Given two integer numbers return their product only if the product is equal to or lower than 1000,
-# else return their sum.
-print("Nenne zwei Zahlen:")
-number1 = int(input("Erste Zahl:"))
-number2 = int(input())
+# Gemeinsam bearbeitete Aufgabe:
+# Write a program to iterate the first 10 numbers and in each iteration,
+# print the sum of the current and previous number.
 
-result = 0
-if (number1 * number2) > 1000:
-    result = number1 + number2
-else:
-    result = number1 * number2
-print(f"Hier das Ergebnis: {result}")
+previous_i = 0
+
+for i in range(10): # Wir nutzen die built-in Funktion "range" um eine List von Zahlen von 0 bis 9 inkl. zu erzeugen.
+    sum = i + previous_i    # Wir addieren die aktuelle und vorherige Zahl.
+    print(f"Current Number {i} Previous Number  {previous_i}  Sum:  {sum}") # Wir schreiben die aktuelle und vorherige Zahl, sowie Summe in die Konsole.
+    previous_i = i  # Wir setzen die vorherige Zahl erneut.
